@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+  <%- include('navbar') %>
+    <div class="row">
+      <div class="container mx-auto bg bg-white w-100">
+        <h1 class="col-5 mx-auto text-center m-5">Our mission is to make building websites easier for everyone.</h1>
+        <p class="col-5 mx-auto text-center m-5">Start Bootstrap was built on the idea that quality, functional website
+          templates and themes should be available to everyone. Use our open source, free products, or support us by
+          purchasing one of our premium products or services. </p>
+      </div>
+    </div>
+    <div class="jumbotron">
+      <div class="container-fluid bg bg-light">
+        <div class="row">
+          <div class="col-md-6 my-5">
+            <img src="http://via.placeholder.com/600x400.png" class="card-img-top" alt="...">
+          </div>
+          <div class="col-md-6 my-5">
+            <h1 class="display-4">Our founding</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam
+              beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita,
+              maiores eaque quisquam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 my-5">
+            <h1 class="display-4">Growth & beyond</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam
+              beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita,
+              maiores eaque quisquam.</p>
+          </div>
+          <div class="col-md-6 my-5">
+            <img src="http://via.placeholder.com/600x400.png" class="card-img-top" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg bg-light">
+      <div class="row">
+        <div class="text-center ">
+          <h4 class="mt-5">Our Team </h4>
+          <p>Dedicated to quality and your success</p>
+        </div>
+        <%- include('our-team') %>
+        <%- include('our-team') %>
+        <%- include('our-team') %>
+        <%- include('our-team') %>
+      </div>
+    </div>
+    <%- include('footer') %>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
